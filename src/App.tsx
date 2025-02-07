@@ -27,7 +27,7 @@ const ValentineCard: React.FC = () => {
             <p className="click-text">Kliknij, aby otworzyć</p>
           ) : (
             <div className="content">
-              <h2>Czy zostaniesz moją walentynką?</h2>
+              <h2 className="question">Czy zostaniesz moją walentynką?</h2>
               <div className="buttons" style={{ position: "relative", width: "100%", height: "100px" }}>
                 <button className="yes" onClick={() => setAccepted(true)}>Tak</button>
                 <button
